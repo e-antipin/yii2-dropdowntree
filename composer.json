@@ -1,0 +1,23 @@
+{
+  "name": "antimail/yii2-dropdown-tree",
+  "description": "A dropdown widget containing expandable treeview",
+  "keywords": ["yii2", "extension", "widget", "dropdown", "tree", "treeview"],
+  "homepage": "",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Evgeniy Antipin",
+      "email": "e.antipin@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "antimail\\dropdowntree\\": "src"
+    }
+  }
+}
