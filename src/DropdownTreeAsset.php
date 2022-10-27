@@ -5,7 +5,7 @@ use yii\web\AssetBundle;
 
 class DropdownTreeAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/antimail/yii2-dropdown-tree/assets';
+    public $sourcePath = '@vendor/antimail/yii2-dropdown-tree/src/assets';
 
     public $js = [
     ];
