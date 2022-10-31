@@ -1,5 +1,5 @@
 {
-  "name": "antimail/yii2-dropdown-tree",
+  "name": "antimail/yii2-dropdowntree",
   "description": "A dropdown widget containing expandable treeview",
   "keywords": ["yii2", "extension", "widget", "dropdown", "tree", "treeview"],
   "homepage": "",
