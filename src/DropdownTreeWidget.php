@@ -66,6 +66,7 @@ class DropdownTreeWidget extends InputWidget
                 })
                 treeselect.srcElement.addEventListener('input', (e) => {
                   document.getElementById('" . $this->options['id'] . "').value = e.detail; 
+                  document.getElementById('" . $this->options['id'] . "').dispatchEvent(new Event('change'));
                 })
             });
         ", View::POS_END);
