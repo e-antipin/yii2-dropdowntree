@@ -62,7 +62,7 @@ class DropdownTreeWidget extends InputWidget
                     //disabledBranchNode: true,
                     isGroupedValue:true,
                     //listSlotHtmlComponent: slot,
-                    alwaysOpen: true
+                    //alwaysOpen: true
                 })
                 treeselect.srcElement.addEventListener('input', (e) => {
                   document.getElementById('" . $this->options['id'] . "').value = e.detail; 
