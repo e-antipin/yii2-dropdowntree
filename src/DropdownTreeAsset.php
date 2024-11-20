@@ -1,11 +1,11 @@
 <?php
-namespace antimail\dropdowntree;
+namespace e-antipin\dropdowntree;
 
 use yii\web\AssetBundle;
 
 class DropdownTreeAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/antimail/yii2-dropdown-tree/src/assets';
+    public $sourcePath = '@vendor/e-antipin/yii2-dropdown-tree/src/assets';
 
     public $js = [
         ['js/treeselectjs.mjs.js', 'type'=>'module'],
@@ -16,6 +16,6 @@ class DropdownTreeAsset extends AssetBundle
         'css/treeselectjs.css',
     ];
     public $depends = [
-        //'antimail\dropdowntree\TreeSelectAsset'
+        //'e-antipin\dropdowntree\TreeSelectAsset'
     ];
 }
