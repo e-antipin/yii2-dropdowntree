@@ -1,5 +1,5 @@
 <?php
-namespace antimail\dropdowntree;
+namespace e-antipin\dropdowntree;
 
 use yii\helpers\Json;
 use yii\web\View;
