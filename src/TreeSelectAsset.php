@@ -1,5 +1,5 @@
 <?php
-namespace antimail\dropdowntree;
+namespace e-antipin\dropdowntree;
 
 use yii\web\AssetBundle;
 
